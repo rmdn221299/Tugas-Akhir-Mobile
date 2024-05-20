@@ -1,5 +1,5 @@
 describe('Open Application',() =>{
     it('should open apps', async() => {
-        await('com.fghilmany.dietmealapp:id/til_name'.click());
+        await $("//android.widget.TextView[@content-desc='Accesssibility']").click();
     })
 })
