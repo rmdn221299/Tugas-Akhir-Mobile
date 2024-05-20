@@ -10,8 +10,5 @@ describe('Open Application',() =>{
         await $("com.fghilmany.dietmealapp:id/bt_next").click();
         await $("com.fghilmany.dietmealapp:id/bt_rest").click();
         await $("com.fghilmany.dietmealapp:id/bt_finish").click();
-
-      
-
-    })
+       })
 })
