@@ -58,9 +58,9 @@ exports.config = {
         'appium:deviceName': 'M32 milik Ramdani',
         'appium:platformVersion': '13.0',
         'appium:automationName': 'UiAutomator2',
-        'appium:app' : path.join(process.cwd(), './test/apk/ApiDemos-debug.apk'),
-        'appium:appPackage' : 'io.appium.android.apis',
-        'appium:appActivity' : '.ApiDemos',
+        'appium:app' : path.join(process.cwd(), './test/apk/Diet_meal.apk'),
+        'appium:appPackage' : 'com.fghilmany.dietmealapp',
+        'appium:appActivity' : 'com.fghilmany.dietmealapp.ui.main.MainActivity',
         'appium:noReset' : true,
         'appium:forceAppLaunch' : true,
     }],
@@ -123,8 +123,6 @@ exports.config = {
             command : 'appium'
         },
       ]
-   
-    
     ],
 
     // Framework you want to run your specs with.
