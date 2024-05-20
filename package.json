@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "wdio" : "wdio run wdio.conf.js"
+    "wdio": "wdio run wdio.conf.js"
   },
   "keywords": [
     "mobile"
@@ -24,10 +24,9 @@
     "@wdio/visual-service": "^4.1.2",
     "appium-uiautomator2-driver": "^3.5.1"
   },
-
   "dependencies": {
-    "-" : "0.0.1",
-    "g" : "^2.0.1",
-    "path" : "^0.12.7"
+    "-": "0.0.1",
+    "g": "^2.0.1",
+    "path": "^0.12.7"
   }
 }
