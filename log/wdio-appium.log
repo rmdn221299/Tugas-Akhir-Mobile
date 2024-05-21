@@ -1,0 +1,430 @@
+[35m[Appium][39m Available drivers:
+[35m[Appium][39m   - uiautomator2@2.45.1 (automationName 'UiAutomator2')
+[35m[Appium][39m No plugins have been installed. Use the "appium plugin" command to install the one(s) you want to use.
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/session[39m
+[38;5;0m[HTTP][0m [90m{"capabilities":{"alwaysMatch":{"platformName":"Android","appium:automationName":"UiAutomator2","appium:deviceName":"M32 milik Ramdani","appium:platformVersion":"13.0","appium:app":"C:\\Users\\User\\Downloads\\app-cucumber\\test\\apk\\Diet_meal.apk","appium:appPackage":"com.fghilmany.dietmealapp","appium:appActivity":"com.fghilmany.dietmealapp.ui.main.MainActivity","appium:noReset":true,"appium:forceAppLaunch":true},"firstMatch":[{}]},"desiredCapabilities":{"platformName":"Android","appium:automationName":"UiAutomator2","appium:deviceName":"M32 milik Ramdani","appium:platformVersion":"13.0","appium:app":"C:\\Users\\User\\Downloads\\app-cucumber\\test\\apk\\Diet_meal.apk","appium:appPackage":"com.fghilmany.dietmealapp","appium:appActivity":"com.fghilmany.dietmealapp.ui.main.MainActivity","appium:noReset":true,"appium:forceAppLaunch":true}}[39m
+[38;5;16m[AppiumDriver@08bf][0m Calling AppiumDriver.createSession() with args: [{"platformName":"Android","appium:automationName":"UiAutomator2","appium:deviceName":"M32 milik Ramdani","appium:platformVersion":"13.0","appium:app":"C:\\Users\\User\\Downloads\\app-cucumber\\test\\apk\\Diet_meal.apk","appium:appPackage":"com.fghilmany.dietmealapp","appium:appActivity":"com.fghilmany.dietmealapp.ui.main.MainActivity","appium:noReset":true,"appium:forceAppLaunch":true},null,{"alwaysMatch":{"platformName":"Android","appium:automationName":"UiAutomator2","appium:deviceName":"M32 milik Ramdani","appium:platformVersion":"13.0","appium:app":"C:\\Users\\User\\Downloads\\app-cucumber\\test\\apk\\Diet_meal.apk","appium:appPackage":"com.fghilmany.dietmealapp","appium:appActivity":"com.fghilmany.dietmealapp.ui.main.MainActivity","appium:noReset":true,"appium:forceAppLaunch":true},"firstMatch":[{}]}]
+[38;5;16m[AppiumDriver@08bf][0m Event 'newSessionRequested' logged at 1716264301428 (11:05:01 GMT+0700 (Western Indonesia Time))
+[35m[Appium][39m Attempting to find matching driver for automationName 'UiAutomator2' and platformName 'Android'
+[35m[Appium][39m The 'uiautomator2' driver was installed and matched caps.
+[35m[Appium][39m Will require it at C:\Users\User\Downloads\app-cucumber\node_modules\appium-uiautomator2-driver
+[35m[Appium][39m Requiring driver at C:\Users\User\Downloads\app-cucumber\node_modules\appium-uiautomator2-driver\build\index.js
+[38;5;16m[AppiumDriver@08bf][0m Appium v2.5.4 creating new AndroidUiautomator2Driver (v2.45.1) session
+[38;5;16m[AppiumDriver@08bf][0m Checking BaseDriver versions for Appium and AndroidUiautomator2Driver
+[38;5;16m[AppiumDriver@08bf][0m Appium's BaseDriver version is 9.6.0
+[38;5;16m[AppiumDriver@08bf][0m AndroidUiautomator2Driver's BaseDriver version is 9.5.1
+[38;5;32m[AndroidUiautomator2Driver@8834][0m Creating session with W3C capabilities: {
+[38;5;32m[AndroidUiautomator2Driver@8834][0m   "alwaysMatch": {
+[38;5;32m[AndroidUiautomator2Driver@8834][0m     "platformName": "Android",
+[38;5;32m[AndroidUiautomator2Driver@8834][0m     "appium:automationName": "UiAutomator2",
+[38;5;32m[AndroidUiautomator2Driver@8834][0m     "appium:deviceName": "M32 milik Ramdani",
+[38;5;32m[AndroidUiautomator2Driver@8834][0m     "appium:platformVersion": "13.0",
+[38;5;32m[AndroidUiautomator2Driver@8834][0m     "appium:app": "C:\\Users\\User\\Downloads\\app-cucumber\\test\\apk\\Diet_meal.apk",
+[38;5;32m[AndroidUiautomator2Driver@8834][0m     "appium:appPackage": "com.fghilmany.dietmealapp",
+[38;5;32m[AndroidUiautomator2Driver@8834][0m     "appium:appActivity": "com.fghilmany.dietmealapp.ui.main.MainActivity",
+[38;5;32m[AndroidUiautomator2Driver@8834][0m     "appium:noReset": true,
+[38;5;32m[AndroidUiautomator2Driver@8834][0m     "appium:forceAppLaunch": true
+[38;5;32m[AndroidUiautomator2Driver@8834][0m   },
+[38;5;32m[AndroidUiautomator2Driver@8834][0m   "firstMatch": [
+[38;5;32m[AndroidUiautomator2Driver@8834][0m     {}
+[38;5;32m[AndroidUiautomator2Driver@8834][0m   ]
+[38;5;32m[AndroidUiautomator2Driver@8834][0m }
+[38;5;32m[AndroidUiautomator2Driver@8834 (e130869f)][0m Session created with session id: e130869f-41be-4a88-bb4f-30cbb734a5ae
+[38;5;48m[ADB][0m Found 5 'build-tools' folders under 'C:\Users\User\AppData\Local\Android\Sdk' (newest first):
+[38;5;48m[ADB][0m     C:\Users\User\AppData\Local\Android\Sdk\build-tools\32.0.0
+[38;5;48m[ADB][0m     C:\Users\User\AppData\Local\Android\Sdk\build-tools\30.0.3
+[38;5;48m[ADB][0m     C:\Users\User\AppData\Local\Android\Sdk\build-tools\30.0.2
+[38;5;48m[ADB][0m     C:\Users\User\AppData\Local\Android\Sdk\build-tools\29.0.2
+[38;5;48m[ADB][0m     C:\Users\User\AppData\Local\Android\Sdk\build-tools\28.0.3
+[38;5;48m[ADB][0m Using 'adb.exe' from 'C:\Users\User\AppData\Local\Android\Sdk\platform-tools\adb.exe'
+[38;5;48m[ADB][0m Running 'C:\Users\User\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 start-server'
+[38;5;32m[AndroidUiautomator2Driver@8834 (e130869f)][0m Retrieving device list
+[38;5;48m[ADB][0m Trying to find connected Android devices
+[38;5;48m[ADB][0m Getting connected devices
+[38;5;48m[ADB][0m Connected devices: [{"udid":"RR8RC06AWYW","state":"device"}]
+[38;5;32m[AndroidUiautomator2Driver@8834 (e130869f)][0m Looking for a device with Android '13.0.0'
+[38;5;48m[ADB][0m Setting device id to RR8RC06AWYW
+[38;5;48m[ADB][0m Getting device platform version
+[38;5;48m[ADB][0m Running 'C:\Users\User\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s RR8RC06AWYW shell getprop ro.build.version.release'
+[38;5;48m[ADB][0m Current device property 'ro.build.version.release': 13
+[38;5;32m[AndroidUiautomator2Driver@8834 (e130869f)][0m Using device: RR8RC06AWYW
+[38;5;48m[ADB][0m Using 'adb.exe' from 'C:\Users\User\AppData\Local\Android\Sdk\platform-tools\adb.exe'
+[38;5;48m[ADB][0m Running 'C:\Users\User\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 start-server'
+[38;5;48m[ADB][0m Setting device id to RR8RC06AWYW
+[38;5;64m[BaseDriver][0m Using local app 'C:\Users\User\Downloads\app-cucumber\test\apk\Diet_meal.apk'
+[38;5;32m[AndroidUiautomator2Driver@8834 (e130869f)][0m Checking whether app is actually present
+[38;5;48m[ADB][0m Running 'C:\Users\User\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s RR8RC06AWYW shell getprop ro.build.version.sdk'
+[38;5;48m[ADB][0m Current device property 'ro.build.version.sdk': 33
+[38;5;48m[ADB][0m Getting device platform version
+[38;5;48m[ADB][0m Running 'C:\Users\User\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s RR8RC06AWYW shell getprop ro.build.version.release'
+[38;5;48m[ADB][0m Current device property 'ro.build.version.release': 13
+[38;5;48m[ADB][0m Device API level: 33
+[38;5;32m[AndroidUiautomator2Driver@8834 (e130869f)][0m Relaxing hidden api policy
+[38;5;48m[ADB][0m Running 'C:\Users\User\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s RR8RC06AWYW shell 'settings put global hidden_api_policy_pre_p_apps 1;settings put global hidden_api_policy_p_apps 1;settings put global hidden_api_policy 1''
+[38;5;32m[AndroidUiautomator2Driver@8834 (e130869f)][0m Pushing settings apk to the device...
+[38;5;48m[ADB][0m Getting package info for 'io.appium.settings'
+[38;5;48m[ADB][0m Running 'C:\Users\User\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s RR8RC06AWYW shell dumpsys package io.appium.settings'
+[38;5;48m[ADB][0m The version name of the installed 'io.appium.settings' is greater or equal to the application version name ('5.7.5' >= '5.7.5')
+[38;5;48m[ADB][0m There is no need to install/upgrade 'C:\Users\User\Downloads\app-cucumber\node_modules\appium-uiautomator2-driver\node_modules\io.appium.settings\apks\settings_apk-debug.apk'
+[38;5;48m[ADB][0m Running 'C:\Users\User\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s RR8RC06AWYW shell dumpsys activity services io.appium.settings'
+[38;5;32m[AndroidUiautomator2Driver@8834 (e130869f)][0m io.appium.settings is already running. There is no need to reset its permissions.
+[38;5;80m[Logcat][0m Starting logs capture with command: C:\\Users\\User\\AppData\\Local\\Android\\Sdk\\platform-tools\\adb.exe -P 5037 -s RR8RC06AWYW logcat -v threadtime
+[38;5;48m[ADB][0m Running 'C:\Users\User\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s RR8RC06AWYW shell appops set io.appium.settings android:mock_location allow'
+[38;5;48m[ADB][0m Running 'C:\Users\User\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s RR8RC06AWYW shell "[ -e '/data/local/tmp/mock_apps.json' ] && echo __PASS__"'
+[38;5;48m[ADB][0m Running 'C:\Users\User\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s RR8RC06AWYW shell cat /data/local/tmp/mock_apps.json'
+[38;5;32m[AndroidUiautomator2Driver@8834 (e130869f)][0m Forwarding UiAutomator2 Server port 6790 to local port 8203
+[38;5;48m[ADB][0m Forwarding system: 8203 to device: 6790
+[38;5;48m[ADB][0m Running 'C:\Users\User\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s RR8RC06AWYW forward tcp:8203 tcp:6790'
+[38;5;48m[ADB][0m Getting install status for com.fghilmany.dietmealapp
+[38;5;48m[ADB][0m Running 'C:\Users\User\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s RR8RC06AWYW shell pm path com.fghilmany.dietmealapp'
+[38;5;48m[ADB][0m Checking app cert for C:\Users\User\Downloads\app-cucumber\node_modules\appium-uiautomator2-driver\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v6.0.9.apk
+[38;5;48m[ADB][0m Checking app cert for C:\Users\User\Downloads\app-cucumber\node_modules\appium-uiautomator2-driver\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk
+[38;5;48m[ADB][0m Using 'apksigner.jar' from 'C:\Users\User\AppData\Local\Android\Sdk\build-tools\32.0.0\lib\apksigner.jar'
+[38;5;48m[ADB][0m Starting apksigner: 'C:\\Program Files\\Java\\jdk-14.0.2\\bin\\java.exe' -Xmx1024M -Xss1m -jar C:\\Users\\User\\AppData\\Local\\Android\\Sdk\\build-tools\\32.0.0\\lib\\apksigner.jar verify --print-certs C:\\Users\\User\\Downloads\\app-cucumber\\node_modules\\appium-uiautomator2-driver\\node_modules\\appium-uiautomator2-server\\apks\\appium-uiautomator2-server-debug-androidTest.apk
+[38;5;48m[ADB][0m Starting apksigner: 'C:\\Program Files\\Java\\jdk-14.0.2\\bin\\java.exe' -Xmx1024M -Xss1m -jar C:\\Users\\User\\AppData\\Local\\Android\\Sdk\\build-tools\\32.0.0\\lib\\apksigner.jar verify --print-certs C:\\Users\\User\\Downloads\\app-cucumber\\node_modules\\appium-uiautomator2-driver\\node_modules\\appium-uiautomator2-server\\apks\\appium-uiautomator2-server-v6.0.9.apk
+[38;5;48m[ADB][0m 'com.fghilmany.dietmealapp' is installed
+[38;5;32m[AndroidUiautomator2Driver@8834 (e130869f)][0m noReset has been requested and the app is already installed. Doing nothing
+[38;5;48m[ADB][0m apksigner stdout: Signer #1 certificate DN: EMAILADDRESS=android@android.com, CN=Android, OU=Android, O=Android, L=Mountain View, ST=California, C=US
+[38;5;48m[ADB][0m Signer #1 certificate SHA-256 digest: a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc
+[38;5;48m[ADB][0m Signer #1 certificate SHA-1 digest: 61ed377e85d386a8dfee6b864bd85b0bfaa5af81
+[38;5;48m[ADB][0m Signer #1 certificate MD5 digest: e89b158e4bcf988ebd09eb83f5378e87
+[38;5;48m[ADB][0m 
+[38;5;48m[ADB][0m sha256 hash did match for 'appium-uiautomator2-server-debug-androidTest.apk'
+[38;5;48m[ADB][0m 'C:\Users\User\Downloads\app-cucumber\node_modules\appium-uiautomator2-driver\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk' is signed with the default certificate
+[38;5;48m[ADB][0m Getting install status for io.appium.uiautomator2.server.test
+[38;5;48m[ADB][0m Running 'C:\Users\User\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s RR8RC06AWYW shell pm path io.appium.uiautomator2.server.test'
+[38;5;48m[ADB][0m 'io.appium.uiautomator2.server.test' is installed
+[38;5;48m[ADB][0m apksigner stdout: Signer #1 certificate DN: EMAILADDRESS=android@android.com, CN=Android, OU=Android, O=Android, L=Mountain View, ST=California, C=US
+[38;5;48m[ADB][0m Signer #1 certificate SHA-256 digest: a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc
+[38;5;48m[ADB][0m Signer #1 certificate SHA-1 digest: 61ed377e85d386a8dfee6b864bd85b0bfaa5af81
+[38;5;48m[ADB][0m Signer #1 certificate MD5 digest: e89b158e4bcf988ebd09eb83f5378e87
+[38;5;48m[ADB][0m 
+[38;5;48m[ADB][0m sha256 hash did match for 'appium-uiautomator2-server-v6.0.9.apk'
+[38;5;48m[ADB][0m 'C:\Users\User\Downloads\app-cucumber\node_modules\appium-uiautomator2-driver\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v6.0.9.apk' is signed with the default certificate
+[38;5;48m[ADB][0m Getting package info for 'io.appium.uiautomator2.server'
+[38;5;48m[ADB][0m Running 'C:\Users\User\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s RR8RC06AWYW shell dumpsys package io.appium.uiautomator2.server'
+[38;5;48m[ADB][0m The version name of the installed 'io.appium.uiautomator2.server' is greater or equal to the application version name ('6.0.9' >= '6.0.9')
+[38;5;32m[AndroidUiautomator2Driver@8834 (e130869f)][0m Server packages status: [{"wasSigned":true,"installState":"sameVersionInstalled","appPath":"C:\\Users\\User\\Downloads\\app-cucumber\\node_modules\\appium-uiautomator2-driver\\node_modules\\appium-uiautomator2-server\\apks\\appium-uiautomator2-server-v6.0.9.apk","appId":"io.appium.uiautomator2.server"},{"wasSigned":true,"installState":"sameVersionInstalled","appPath":"C:\\Users\\User\\Downloads\\app-cucumber\\node_modules\\appium-uiautomator2-driver\\node_modules\\appium-uiautomator2-server\\apks\\appium-uiautomator2-server-debug-androidTest.apk","appId":"io.appium.uiautomator2.server.test"}]
+[38;5;32m[AndroidUiautomator2Driver@8834 (e130869f)][0m Server packages are not going to be (re)installed
+[38;5;32m[AndroidUiautomator2Driver@8834 (e130869f)][0m Waiting up to 30000ms for services to be available
+[38;5;48m[ADB][0m Running 'C:\Users\User\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s RR8RC06AWYW shell pm list instrumentation'
+[38;5;32m[AndroidUiautomator2Driver@8834 (e130869f)][0m Instrumentation target 'io.appium.uiautomator2.server.test/androidx.test.runner.AndroidJUnitRunner' is available
+[38;5;48m[ADB][0m Adding packages ["io.appium.settings","io.appium.uiautomator2.server","io.appium.uiautomator2.server.test"] to Doze whitelist
+[38;5;48m[ADB][0m Got the following command chunks to execute: [["dumpsys","deviceidle","whitelist","+io.appium.settings",";","dumpsys","deviceidle","whitelist","+io.appium.uiautomator2.server",";","dumpsys","deviceidle","whitelist","+io.appium.uiautomator2.server.test",";"]]
+[38;5;48m[ADB][0m Running 'C:\Users\User\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s RR8RC06AWYW shell dumpsys deviceidle whitelist +io.appium.settings ; dumpsys deviceidle whitelist +io.appium.uiautomator2.server ; dumpsys deviceidle whitelist +io.appium.uiautomator2.server.test ;'
+[38;5;32m[AndroidUiautomator2Driver@8834 (e130869f)][0m Performing shallow cleanup of automation leftovers
+[38;5;32m[AndroidUiautomator2Driver@8834 (e130869f)][0m No obsolete sessions have been detected (socket hang up)
+[38;5;48m[ADB][0m Running 'C:\Users\User\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s RR8RC06AWYW shell am force-stop io.appium.uiautomator2.server.test'
+[38;5;32m[AndroidUiautomator2Driver@8834 (e130869f)][0m Starting UIAutomator2 server 6.0.9
+[38;5;32m[AndroidUiautomator2Driver@8834 (e130869f)][0m Using UIAutomator2 server from 'C:\Users\User\Downloads\app-cucumber\node_modules\appium-uiautomator2-driver\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v6.0.9.apk' and test from 'C:\Users\User\Downloads\app-cucumber\node_modules\appium-uiautomator2-driver\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk'
+[38;5;32m[AndroidUiautomator2Driver@8834 (e130869f)][0m Waiting up to 30000ms for UiAutomator2 to be online...
+[38;5;48m[ADB][0m Creating ADB subprocess with args: ["-P","5037","-s","RR8RC06AWYW","shell","am","instrument","-w","-e","disableAnalytics","true","io.appium.uiautomator2.server.test/androidx.test.runner.AndroidJUnitRunner"]
+[38;5;32m[AndroidUiautomator2Driver@8834 (e130869f)][0m Matched '/status' to command name 'getStatus'
+[38;5;32m[AndroidUiautomator2Driver@8834 (e130869f)][0m Proxying [GET /status] to [GET http://127.0.0.1:8203/status] with no body
+[38;5;32m[AndroidUiautomator2Driver@8834 (e130869f)][0m socket hang up
+[38;5;32m[AndroidUiautomator2Driver@8834 (e130869f)][0m Matched '/status' to command name 'getStatus'
+[38;5;32m[AndroidUiautomator2Driver@8834 (e130869f)][0m Proxying [GET /status] to [GET http://127.0.0.1:8203/status] with no body
+[38;5;32m[AndroidUiautomator2Driver@8834 (e130869f)][0m socket hang up
+[38;5;96m[Instrumentation][0m io.appium.uiautomator2.server.test.AppiumUiAutomator2Server:
+[38;5;32m[AndroidUiautomator2Driver@8834 (e130869f)][0m Matched '/status' to command name 'getStatus'
+[38;5;32m[AndroidUiautomator2Driver@8834 (e130869f)][0m Proxying [GET /status] to [GET http://127.0.0.1:8203/status] with no body
+[38;5;32m[AndroidUiautomator2Driver@8834 (e130869f)][0m socket hang up
+[38;5;32m[AndroidUiautomator2Driver@8834 (e130869f)][0m Matched '/status' to command name 'getStatus'
+[38;5;32m[AndroidUiautomator2Driver@8834 (e130869f)][0m Proxying [GET /status] to [GET http://127.0.0.1:8203/status] with no body
+[38;5;32m[AndroidUiautomator2Driver@8834 (e130869f)][0m socket hang up
+[38;5;32m[AndroidUiautomator2Driver@8834 (e130869f)][0m Matched '/status' to command name 'getStatus'
+[38;5;32m[AndroidUiautomator2Driver@8834 (e130869f)][0m Proxying [GET /status] to [GET http://127.0.0.1:8203/status] with no body
+[38;5;32m[AndroidUiautomator2Driver@8834 (e130869f)][0m Got response with status 200: {"sessionId":"None","value":{"message":"UiAutomator2 Server is ready to accept commands","ready":true}}
+[38;5;32m[AndroidUiautomator2Driver@8834 (e130869f)][0m The initialization of the instrumentation process took 4179ms
+[38;5;32m[AndroidUiautomator2Driver@8834 (e130869f)][0m Matched '/session' to command name 'createSession'
+[38;5;32m[AndroidUiautomator2Driver@8834 (e130869f)][0m Proxying [POST /session] to [POST http://127.0.0.1:8203/session] with body: {"capabilities":{"firstMatch":[{"platformName":"Android","automationName":"UiAutomator2","deviceName":"RR8RC06AWYW","platformVersion":"13.0","app":"C:\\Users\\User\\Downloads\\app-cucumber\\test\\apk\\Diet_meal.apk","appPackage":"com.fghilmany.dietmealapp","appActivity":"com.fghilmany.dietmealapp.ui.main.MainActivity","noReset":true,"forceAppLaunch":true,"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"Android","automationName":"UiAutomator2","deviceName":"M32 milik Ramdani","platformVersion":"13.0","app":"C:\\Users\\User\\Downloads\\app-cucumber\\test\\apk\\Diet_meal.apk","appPackage":"com.fghilmany.dietmealapp","appActivity":"com.fghilmany.dietmealapp.ui.main.MainActivity","noReset":true,"forceAppLaunch":true},"deviceUDID":"RR8RC06AWYW"}],"alwaysMatch":{}}}
+[38;5;32m[AndroidUiautomator2Driver@8834 (e130869f)][0m Got response with status 200: {"sessionId":"ff73ff52-6680-4a3f-a0d9-39ab2f77ffe3","value":{"capabilities":{"firstMatch":[{"platformName":"Android","automationName":"UiAutomator2","deviceName":"RR8RC06AWYW","platformVersion":"13.0","app":"C:\\Users\\User\\Downloads\\app-cucumber\\test\\apk\\Diet_meal.apk","appPackage":"com.fghilmany.dietmealapp","appActivity":"com.fghilmany.dietmealapp.ui.main.MainActivity","noReset":true,"forceAppLaunch":true,"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"Android","automationName":"UiAutomator2","deviceName":"M32 milik Ramdani","platformVersion":"13.0","app":"C:\\Users\\User\\Downloads\\app-cucumber\\test\\apk\\Diet_meal.apk","appPackage":"com.fghilmany.dietmealapp","appActivity":"com.fghilmany.dietmealapp.ui.main.MainActivity","noReset":true,"forceAppLaunch":true},"deviceUDID":"RR8RC06AWYW"}],"alwaysMatch":{}},"sessionId":"ff73ff5...
+[38;5;32m[AndroidUiautomator2Driver@8834 (e130869f)][0m Determined the downstream protocol as 'W3C'
+[38;5;32m[AndroidUiautomator2Driver@8834 (e130869f)][0m Proxying [GET /appium/device/pixel_ratio] to [GET http://127.0.0.1:8203/session/ff73ff52-6680-4a3f-a0d9-39ab2f77ffe3/appium/device/pixel_ratio] with no body
+[38;5;32m[AndroidUiautomator2Driver@8834 (e130869f)][0m Matched '/appium/device/system_bars' to command name 'getSystemBars'
+[38;5;32m[AndroidUiautomator2Driver@8834 (e130869f)][0m Proxying [GET /appium/device/system_bars] to [GET http://127.0.0.1:8203/session/ff73ff52-6680-4a3f-a0d9-39ab2f77ffe3/appium/device/system_bars] with no body
+[38;5;32m[AndroidUiautomator2Driver@8834 (e130869f)][0m Matched '/window/current/size' to command name 'getWindowSize'
+[38;5;32m[AndroidUiautomator2Driver@8834 (e130869f)][0m Proxying [GET /window/current/size] to [GET http://127.0.0.1:8203/session/ff73ff52-6680-4a3f-a0d9-39ab2f77ffe3/window/current/size] with no body
+[38;5;32m[AndroidUiautomator2Driver@8834 (e130869f)][0m Proxying [GET /appium/device/info] to [GET http://127.0.0.1:8203/session/ff73ff52-6680-4a3f-a0d9-39ab2f77ffe3/appium/device/info] with no body
+[38;5;48m[ADB][0m Running 'C:\Users\User\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s RR8RC06AWYW shell dumpsys window'
+[38;5;32m[AndroidUiautomator2Driver@8834 (e130869f)][0m Got response with status 200: {"sessionId":"ff73ff52-6680-4a3f-a0d9-39ab2f77ffe3","value":2.8125}
+[38;5;32m[AndroidUiautomator2Driver@8834 (e130869f)][0m Got response with status 200: {"sessionId":"ff73ff52-6680-4a3f-a0d9-39ab2f77ffe3","value":{"height":2400,"width":1080}}
+[38;5;32m[AndroidUiautomator2Driver@8834 (e130869f)][0m Got response with status 200: {"sessionId":"ff73ff52-6680-4a3f-a0d9-39ab2f77ffe3","value":{"statusBar":78}}
+[38;5;32m[AndroidUiautomator2Driver@8834 (e130869f)][0m Screen already unlocked, doing nothing
+[38;5;32m[AndroidUiautomator2Driver@8834 (e130869f)][0m Starting 'com.fghilmany.dietmealapp/com.fghilmany.dietmealapp.ui.main.MainActivity and waiting for 'com.fghilmany.dietmealapp/com.fghilmany.dietmealapp.ui.main.MainActivity'
+[38;5;48m[ADB][0m Running 'C:\Users\User\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s RR8RC06AWYW shell am start -W -n com.fghilmany.dietmealapp/com.fghilmany.dietmealapp.ui.main.MainActivity -S -a android.intent.action.MAIN -c android.intent.category.LAUNCHER -f 0x10200000'
+[38;5;32m[AndroidUiautomator2Driver@8834 (e130869f)][0m Got response with status 200: {"sessionId":"ff73ff52-6680-4a3f-a0d9-39ab2f77ffe3","value":{"androidId":"d297391f011c985d","apiVersion":"33","bluetooth":{"state":"OFF"},"brand":"samsung","carrierName":"INDOSATOOREDOO","displayDensity":450,"locale":"en_US","manufacturer":"samsung","model":"SM-M325FV","networks":[{"capabilities":{"SSID":null,"linkDownBandwidthKbps":60000,"linkUpstreamBandwidthKbps":12000,"networkCapabilities":"NET_CAPABILITY_NOT_METERED,NET_CAPABILITY_INTERNET,NET_CAPABILITY_NOT_RESTRICTED,NET_CAPABILITY_TRUSTED,NET_CAPABILITY_NOT_VPN,NET_CAPABILITY_VALIDATED,NET_CAPABILITY_NOT_ROAMING,NET_CAPABILITY_FOREGROUND,NET_CAPABILITY_NOT_CONGESTED,NET_CAPABILITY_NOT_SUSPENDED","signalStrength":-59,"transportTypes":"TRANSPORT_WIFI"},"detailedState":"CONNECTED","extraInfo":"","isAvailable":true,"isConnected":true,"isFailover":false,"isRoaming":false,"state":"CONNECTED","subtype":-1,"subtypeName":"","type":1,"typeName":"WIFI"}],"platformVersion":"13","realDisplaySize":"1080x2400","timeZone":"Asia/Jakarta"}}
+[38;5;16m[AppiumDriver@08bf][0m New AndroidUiautomator2Driver session created successfully, session e130869f-41be-4a88-bb4f-30cbb734a5ae added to master session list
+[38;5;16m[AppiumDriver@08bf][0m Event 'newSessionStarted' logged at 1716264309874 (11:05:09 GMT+0700 (Western Indonesia Time))
+[38;5;32m[AndroidUiautomator2Driver@8834 (e130869f)][0m Cached the protocol value 'W3C' for the new session e130869f-41be-4a88-bb4f-30cbb734a5ae
+[38;5;32m[AndroidUiautomator2Driver@8834 (e130869f)][0m Responding to client with driver.createSession() result: {"capabilities":{"platformName":"Android","automationName":"UiAutomator2","deviceName":"RR8RC06AWYW","platformVersion":"13","app":"C:\\Users\\User\\Downloads\\app-cucumber\\test\\apk\\Diet_meal.apk","appPackage":"com.fghilmany.dietmealapp","appActivity":"com.fghilmany.dietmealapp.ui.main.MainActivity","noReset":true,"forceAppLaunch":true,"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"Android","automationName":"UiAutomator2","deviceName":"M32 milik Ramdani","platformVersion":"13.0","app":"C:\\Users\\User\\Downloads\\app-cucumber\\test\\apk\\Diet_meal.apk","appPackage":"com.fghilmany.dietmealapp","appActivity":"com.fghilmany.dietmealapp.ui.main.MainActivity","noReset":true,"forceAppLaunch":true},"deviceUDID":"RR8RC06AWYW","pixelRatio":"2.8125","statBarHeight":78,"viewportRect":{"left":0,"top":78,"width":1080,"height":2322},"deviceApiLeve...
+[38;5;0m[HTTP][0m [37m<-- POST /session [39m[32m200[39m [90m8454 ms - 1203[39m
+[38;5;0m[HTTP][0m [90m[39m
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/session/e130869f-41be-4a88-bb4f-30cbb734a5ae/element[39m
+[38;5;0m[HTTP][0m [90m{"using":"id","value":"com.fghilmany.dietmealapp:id/et_name"}[39m
+[38;5;32m[AndroidUiautomator2Driver@8834 (e130869f)][0m Calling AppiumDriver.findElement() with args: ["id","com.fghilmany.dietmealapp:id/et_name","e130869f-41be-4a88-bb4f-30cbb734a5ae"]
+[38;5;32m[AndroidUiautomator2Driver@8834 (e130869f)][0m Valid locator strategies for this request: xpath, id, class name, accessibility id, css selector, -android uiautomator
+[38;5;32m[AndroidUiautomator2Driver@8834 (e130869f)][0m Waiting up to 0 ms for condition
+[38;5;32m[AndroidUiautomator2Driver@8834 (e130869f)][0m Matched '/element' to command name 'findElement'
+[38;5;32m[AndroidUiautomator2Driver@8834 (e130869f)][0m Proxying [POST /element] to [POST http://127.0.0.1:8203/session/ff73ff52-6680-4a3f-a0d9-39ab2f77ffe3/element] with body: {"strategy":"id","selector":"com.fghilmany.dietmealapp:id/et_name","context":"","multiple":false}
+[38;5;32m[AndroidUiautomator2Driver@8834 (e130869f)][0m Got response with status 404: {"sessionId":"ff73ff52-6680-4a3f-a0d9-39ab2f77ffe3","value":{"error":"no such element","message":"An element could not be located on the page using the given search parameters","stacktrace":"io.appium.uiautomator2.common.exceptions.ElementNotFoundException: An element could not be located on the page using the given search parameters\n\tat io.appium.uiautomator2.handler.FindElement.safeHandle(FindElement.java:63)\n\tat io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:59)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:277)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:271)\n\tat io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:77)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.chann...
+[38;5;112m[W3C][0m Matched W3C error code 'no such element' to NoSuchElementError
+[38;5;32m[AndroidUiautomator2Driver@8834 (e130869f)][0m Encountered internal error running command: NoSuchElementError: An element could not be located on the page using the given search parameters.
+[38;5;32m[AndroidUiautomator2Driver@8834 (e130869f)][0m     at AndroidUiautomator2Driver.findElOrEls (C:\Users\User\Downloads\app-cucumber\node_modules\appium-uiautomator2-driver\node_modules\appium-android-driver\lib\commands\find.ts:86:11)
+[38;5;32m[AndroidUiautomator2Driver@8834 (e130869f)][0m     at processTicksAndRejections (node:internal/process/task_queues:95:5)
+[38;5;32m[AndroidUiautomator2Driver@8834 (e130869f)][0m     at AndroidUiautomator2Driver.findElOrElsWithProcessing (C:\Users\User\Downloads\app-cucumber\node_modules\appium-uiautomator2-driver\node_modules\@appium\base-driver\lib\basedriver\commands\find.ts:60:12)
+[38;5;32m[AndroidUiautomator2Driver@8834 (e130869f)][0m     at AndroidUiautomator2Driver.findElement (C:\Users\User\Downloads\app-cucumber\node_modules\appium-uiautomator2-driver\node_modules\@appium\base-driver\lib\basedriver\commands\find.ts:75:12)
+[38;5;0m[HTTP][0m [37m<-- POST /session/e130869f-41be-4a88-bb4f-30cbb734a5ae/element [39m[33m404[39m [90m690 ms - 947[39m
+[38;5;0m[HTTP][0m [90m[39m
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/session/e130869f-41be-4a88-bb4f-30cbb734a5ae/elements[39m
+[38;5;0m[HTTP][0m [90m{"using":"id","value":"com.fghilmany.dietmealapp:id/et_name"}[39m
+[38;5;32m[AndroidUiautomator2Driver@8834 (e130869f)][0m Calling AppiumDriver.findElements() with args: ["id","com.fghilmany.dietmealapp:id/et_name","e130869f-41be-4a88-bb4f-30cbb734a5ae"]
+[38;5;32m[AndroidUiautomator2Driver@8834 (e130869f)][0m Valid locator strategies for this request: xpath, id, class name, accessibility id, css selector, -android uiautomator
+[38;5;32m[AndroidUiautomator2Driver@8834 (e130869f)][0m Waiting up to 0 ms for condition
+[38;5;32m[AndroidUiautomator2Driver@8834 (e130869f)][0m Matched '/elements' to command name 'findElements'
+[38;5;32m[AndroidUiautomator2Driver@8834 (e130869f)][0m Proxying [POST /elements] to [POST http://127.0.0.1:8203/session/ff73ff52-6680-4a3f-a0d9-39ab2f77ffe3/elements] with body: {"strategy":"id","selector":"com.fghilmany.dietmealapp:id/et_name","context":"","multiple":true}
+[38;5;32m[AndroidUiautomator2Driver@8834 (e130869f)][0m Got response with status 200: {"sessionId":"ff73ff52-6680-4a3f-a0d9-39ab2f77ffe3","value":[]}
+[38;5;32m[AndroidUiautomator2Driver@8834 (e130869f)][0m Responding to client with driver.findElements() result: []
+[38;5;0m[HTTP][0m [37m<-- POST /session/e130869f-41be-4a88-bb4f-30cbb734a5ae/elements [39m[32m200[39m [90m115 ms - 12[39m
+[38;5;0m[HTTP][0m [90m[39m
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/session/e130869f-41be-4a88-bb4f-30cbb734a5ae/elements[39m
+[38;5;0m[HTTP][0m [90m{"using":"id","value":"com.fghilmany.dietmealapp:id/et_name"}[39m
+[38;5;32m[AndroidUiautomator2Driver@8834 (e130869f)][0m Calling AppiumDriver.findElements() with args: ["id","com.fghilmany.dietmealapp:id/et_name","e130869f-41be-4a88-bb4f-30cbb734a5ae"]
+[38;5;32m[AndroidUiautomator2Driver@8834 (e130869f)][0m Valid locator strategies for this request: xpath, id, class name, accessibility id, css selector, -android uiautomator
+[38;5;32m[AndroidUiautomator2Driver@8834 (e130869f)][0m Waiting up to 0 ms for condition
+[38;5;32m[AndroidUiautomator2Driver@8834 (e130869f)][0m Matched '/elements' to command name 'findElements'
+[38;5;32m[AndroidUiautomator2Driver@8834 (e130869f)][0m Proxying [POST /elements] to [POST http://127.0.0.1:8203/session/ff73ff52-6680-4a3f-a0d9-39ab2f77ffe3/elements] with body: {"strategy":"id","selector":"com.fghilmany.dietmealapp:id/et_name","context":"","multiple":true}
+[38;5;32m[AndroidUiautomator2Driver@8834 (e130869f)][0m Got response with status 200: {"sessionId":"ff73ff52-6680-4a3f-a0d9-39ab2f77ffe3","value":[]}
+[38;5;32m[AndroidUiautomator2Driver@8834 (e130869f)][0m Responding to client with driver.findElements() result: []
+[38;5;0m[HTTP][0m [37m<-- POST /session/e130869f-41be-4a88-bb4f-30cbb734a5ae/elements [39m[32m200[39m [90m126 ms - 12[39m
+[38;5;0m[HTTP][0m [90m[39m
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/session/e130869f-41be-4a88-bb4f-30cbb734a5ae/elements[39m
+[38;5;0m[HTTP][0m [90m{"using":"id","value":"com.fghilmany.dietmealapp:id/et_name"}[39m
+[38;5;32m[AndroidUiautomator2Driver@8834 (e130869f)][0m Calling AppiumDriver.findElements() with args: ["id","com.fghilmany.dietmealapp:id/et_name","e130869f-41be-4a88-bb4f-30cbb734a5ae"]
+[38;5;32m[AndroidUiautomator2Driver@8834 (e130869f)][0m Valid locator strategies for this request: xpath, id, class name, accessibility id, css selector, -android uiautomator
+[38;5;32m[AndroidUiautomator2Driver@8834 (e130869f)][0m Waiting up to 0 ms for condition
+[38;5;32m[AndroidUiautomator2Driver@8834 (e130869f)][0m Matched '/elements' to command name 'findElements'
+[38;5;32m[AndroidUiautomator2Driver@8834 (e130869f)][0m Proxying [POST /elements] to [POST http://127.0.0.1:8203/session/ff73ff52-6680-4a3f-a0d9-39ab2f77ffe3/elements] with body: {"strategy":"id","selector":"com.fghilmany.dietmealapp:id/et_name","context":"","multiple":true}
+[38;5;32m[AndroidUiautomator2Driver@8834 (e130869f)][0m Got response with status 200: {"sessionId":"ff73ff52-6680-4a3f-a0d9-39ab2f77ffe3","value":[]}
+[38;5;32m[AndroidUiautomator2Driver@8834 (e130869f)][0m Responding to client with driver.findElements() result: []
+[38;5;0m[HTTP][0m [37m<-- POST /session/e130869f-41be-4a88-bb4f-30cbb734a5ae/elements [39m[32m200[39m [90m171 ms - 12[39m
+[38;5;0m[HTTP][0m [90m[39m
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/session/e130869f-41be-4a88-bb4f-30cbb734a5ae/elements[39m
+[38;5;0m[HTTP][0m [90m{"using":"id","value":"com.fghilmany.dietmealapp:id/et_name"}[39m
+[38;5;32m[AndroidUiautomator2Driver@8834 (e130869f)][0m Calling AppiumDriver.findElements() with args: ["id","com.fghilmany.dietmealapp:id/et_name","e130869f-41be-4a88-bb4f-30cbb734a5ae"]
+[38;5;32m[AndroidUiautomator2Driver@8834 (e130869f)][0m Valid locator strategies for this request: xpath, id, class name, accessibility id, css selector, -android uiautomator
+[38;5;32m[AndroidUiautomator2Driver@8834 (e130869f)][0m Waiting up to 0 ms for condition
+[38;5;32m[AndroidUiautomator2Driver@8834 (e130869f)][0m Matched '/elements' to command name 'findElements'
+[38;5;32m[AndroidUiautomator2Driver@8834 (e130869f)][0m Proxying [POST /elements] to [POST http://127.0.0.1:8203/session/ff73ff52-6680-4a3f-a0d9-39ab2f77ffe3/elements] with body: {"strategy":"id","selector":"com.fghilmany.dietmealapp:id/et_name","context":"","multiple":true}
+[38;5;32m[AndroidUiautomator2Driver@8834 (e130869f)][0m Got response with status 200: {"sessionId":"ff73ff52-6680-4a3f-a0d9-39ab2f77ffe3","value":[]}
+[38;5;32m[AndroidUiautomator2Driver@8834 (e130869f)][0m Responding to client with driver.findElements() result: []
+[38;5;0m[HTTP][0m [37m<-- POST /session/e130869f-41be-4a88-bb4f-30cbb734a5ae/elements [39m[32m200[39m [90m168 ms - 12[39m
+[38;5;0m[HTTP][0m [90m[39m
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/session/e130869f-41be-4a88-bb4f-30cbb734a5ae/elements[39m
+[38;5;0m[HTTP][0m [90m{"using":"id","value":"com.fghilmany.dietmealapp:id/et_name"}[39m
+[38;5;32m[AndroidUiautomator2Driver@8834 (e130869f)][0m Calling AppiumDriver.findElements() with args: ["id","com.fghilmany.dietmealapp:id/et_name","e130869f-41be-4a88-bb4f-30cbb734a5ae"]
+[38;5;32m[AndroidUiautomator2Driver@8834 (e130869f)][0m Valid locator strategies for this request: xpath, id, class name, accessibility id, css selector, -android uiautomator
+[38;5;32m[AndroidUiautomator2Driver@8834 (e130869f)][0m Waiting up to 0 ms for condition
+[38;5;32m[AndroidUiautomator2Driver@8834 (e130869f)][0m Matched '/elements' to command name 'findElements'
+[38;5;32m[AndroidUiautomator2Driver@8834 (e130869f)][0m Proxying [POST /elements] to [POST http://127.0.0.1:8203/session/ff73ff52-6680-4a3f-a0d9-39ab2f77ffe3/elements] with body: {"strategy":"id","selector":"com.fghilmany.dietmealapp:id/et_name","context":"","multiple":true}
+[38;5;32m[AndroidUiautomator2Driver@8834 (e130869f)][0m Got response with status 200: {"sessionId":"ff73ff52-6680-4a3f-a0d9-39ab2f77ffe3","value":[{"ELEMENT":"00000000-0000-017a-ffff-ffff00000017","element-6066-11e4-a52e-4f735466cecf":"00000000-0000-017a-ffff-ffff00000017"}]}
+[38;5;32m[AndroidUiautomator2Driver@8834 (e130869f)][0m Responding to client with driver.findElements() result: [{"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-017a-ffff-ffff00000017","ELEMENT":"00000000-0000-017a-ffff-ffff00000017"}]
+[38;5;0m[HTTP][0m [37m<-- POST /session/e130869f-41be-4a88-bb4f-30cbb734a5ae/elements [39m[32m200[39m [90m523 ms - 139[39m
+[38;5;0m[HTTP][0m [90m[39m
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/session/e130869f-41be-4a88-bb4f-30cbb734a5ae/element[39m
+[38;5;0m[HTTP][0m [90m{"using":"id","value":"com.fghilmany.dietmealapp:id/et_name"}[39m
+[38;5;32m[AndroidUiautomator2Driver@8834 (e130869f)][0m Calling AppiumDriver.findElement() with args: ["id","com.fghilmany.dietmealapp:id/et_name","e130869f-41be-4a88-bb4f-30cbb734a5ae"]
+[38;5;32m[AndroidUiautomator2Driver@8834 (e130869f)][0m Valid locator strategies for this request: xpath, id, class name, accessibility id, css selector, -android uiautomator
+[38;5;32m[AndroidUiautomator2Driver@8834 (e130869f)][0m Waiting up to 0 ms for condition
+[38;5;32m[AndroidUiautomator2Driver@8834 (e130869f)][0m Matched '/element' to command name 'findElement'
+[38;5;32m[AndroidUiautomator2Driver@8834 (e130869f)][0m Proxying [POST /element] to [POST http://127.0.0.1:8203/session/ff73ff52-6680-4a3f-a0d9-39ab2f77ffe3/element] with body: {"strategy":"id","selector":"com.fghilmany.dietmealapp:id/et_name","context":"","multiple":false}
+[38;5;32m[AndroidUiautomator2Driver@8834 (e130869f)][0m Got response with status 200: {"sessionId":"ff73ff52-6680-4a3f-a0d9-39ab2f77ffe3","value":{"ELEMENT":"00000000-0000-017a-ffff-ffff00000017","element-6066-11e4-a52e-4f735466cecf":"00000000-0000-017a-ffff-ffff00000017"}}
+[38;5;32m[AndroidUiautomator2Driver@8834 (e130869f)][0m Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-017a-ffff-ffff00000017","ELEMENT":"00000000-0000-017a-ffff-ffff00000017"}
+[38;5;0m[HTTP][0m [37m<-- POST /session/e130869f-41be-4a88-bb4f-30cbb734a5ae/element [39m[32m200[39m [90m537 ms - 137[39m
+[38;5;0m[HTTP][0m [90m[39m
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/session/e130869f-41be-4a88-bb4f-30cbb734a5ae/element/00000000-0000-017a-ffff-ffff00000017/clear[39m
+[38;5;0m[HTTP][0m [90m{}[39m
+[38;5;32m[AndroidUiautomator2Driver@8834 (e130869f)][0m Calling AppiumDriver.clear() with args: ["00000000-0000-017a-ffff-ffff00000017","e130869f-41be-4a88-bb4f-30cbb734a5ae"]
+[38;5;32m[AndroidUiautomator2Driver@8834 (e130869f)][0m Matched '/element/00000000-0000-017a-ffff-ffff00000017/clear' to command name 'clear'
+[38;5;32m[AndroidUiautomator2Driver@8834 (e130869f)][0m Proxying [POST /element/00000000-0000-017a-ffff-ffff00000017/clear] to [POST http://127.0.0.1:8203/session/ff73ff52-6680-4a3f-a0d9-39ab2f77ffe3/element/00000000-0000-017a-ffff-ffff00000017/clear] with body: {"elementId":"00000000-0000-017a-ffff-ffff00000017"}
+[38;5;32m[AndroidUiautomator2Driver@8834 (e130869f)][0m Got response with status 200: {"sessionId":"ff73ff52-6680-4a3f-a0d9-39ab2f77ffe3","value":null}
+[38;5;32m[AndroidUiautomator2Driver@8834 (e130869f)][0m Responding to client with driver.clear() result: null
+[38;5;0m[HTTP][0m [37m<-- POST /session/e130869f-41be-4a88-bb4f-30cbb734a5ae/element/00000000-0000-017a-ffff-ffff00000017/clear [39m[32m200[39m [90m99 ms - 14[39m
+[38;5;0m[HTTP][0m [90m[39m
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/session/e130869f-41be-4a88-bb4f-30cbb734a5ae/element/00000000-0000-017a-ffff-ffff00000017/value[39m
+[38;5;0m[HTTP][0m [90m{"text":"ramdani"}[39m
+[38;5;32m[AndroidUiautomator2Driver@8834 (e130869f)][0m Calling AppiumDriver.setValue() with args: ["ramdani","00000000-0000-017a-ffff-ffff00000017","e130869f-41be-4a88-bb4f-30cbb734a5ae"]
+[38;5;32m[AndroidUiautomator2Driver@8834 (e130869f)][0m Matched '/element/00000000-0000-017a-ffff-ffff00000017/value' to command name 'setValue'
+[38;5;32m[AndroidUiautomator2Driver@8834 (e130869f)][0m Added 'value' property ["r","a","m","d","a","n","i"] to 'setValue' request body
+[38;5;32m[AndroidUiautomator2Driver@8834 (e130869f)][0m Proxying [POST /element/00000000-0000-017a-ffff-ffff00000017/value] to [POST http://127.0.0.1:8203/session/ff73ff52-6680-4a3f-a0d9-39ab2f77ffe3/element/00000000-0000-017a-ffff-ffff00000017/value] with body: {"elementId":"00000000-0000-017a-ffff-ffff00000017","text":"ramdani","replace":false,"value":["r","a","m","d","a","n","i"]}
+[38;5;32m[AndroidUiautomator2Driver@8834 (e130869f)][0m Got response with status 200: {"sessionId":"ff73ff52-6680-4a3f-a0d9-39ab2f77ffe3","value":null}
+[38;5;32m[AndroidUiautomator2Driver@8834 (e130869f)][0m Responding to client with driver.setValue() result: null
+[38;5;0m[HTTP][0m [37m<-- POST /session/e130869f-41be-4a88-bb4f-30cbb734a5ae/element/00000000-0000-017a-ffff-ffff00000017/value [39m[32m200[39m [90m1125 ms - 14[39m
+[38;5;0m[HTTP][0m [90m[39m
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/session/e130869f-41be-4a88-bb4f-30cbb734a5ae/element[39m
+[38;5;0m[HTTP][0m [90m{"using":"id","value":"com.fghilmany.dietmealapp:id/et_weight"}[39m
+[38;5;32m[AndroidUiautomator2Driver@8834 (e130869f)][0m Calling AppiumDriver.findElement() with args: ["id","com.fghilmany.dietmealapp:id/et_weight","e130869f-41be-4a88-bb4f-30cbb734a5ae"]
+[38;5;32m[AndroidUiautomator2Driver@8834 (e130869f)][0m Valid locator strategies for this request: xpath, id, class name, accessibility id, css selector, -android uiautomator
+[38;5;32m[AndroidUiautomator2Driver@8834 (e130869f)][0m Waiting up to 0 ms for condition
+[38;5;32m[AndroidUiautomator2Driver@8834 (e130869f)][0m Matched '/element' to command name 'findElement'
+[38;5;32m[AndroidUiautomator2Driver@8834 (e130869f)][0m Proxying [POST /element] to [POST http://127.0.0.1:8203/session/ff73ff52-6680-4a3f-a0d9-39ab2f77ffe3/element] with body: {"strategy":"id","selector":"com.fghilmany.dietmealapp:id/et_weight","context":"","multiple":false}
+[38;5;32m[AndroidUiautomator2Driver@8834 (e130869f)][0m Got response with status 200: {"sessionId":"ff73ff52-6680-4a3f-a0d9-39ab2f77ffe3","value":{"ELEMENT":"00000000-0000-017a-ffff-ffff00000023","element-6066-11e4-a52e-4f735466cecf":"00000000-0000-017a-ffff-ffff00000023"}}
+[38;5;32m[AndroidUiautomator2Driver@8834 (e130869f)][0m Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-017a-ffff-ffff00000023","ELEMENT":"00000000-0000-017a-ffff-ffff00000023"}
+[38;5;0m[HTTP][0m [37m<-- POST /session/e130869f-41be-4a88-bb4f-30cbb734a5ae/element [39m[32m200[39m [90m693 ms - 137[39m
+[38;5;0m[HTTP][0m [90m[39m
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/session/e130869f-41be-4a88-bb4f-30cbb734a5ae/element/00000000-0000-017a-ffff-ffff00000023/clear[39m
+[38;5;0m[HTTP][0m [90m{}[39m
+[38;5;32m[AndroidUiautomator2Driver@8834 (e130869f)][0m Calling AppiumDriver.clear() with args: ["00000000-0000-017a-ffff-ffff00000023","e130869f-41be-4a88-bb4f-30cbb734a5ae"]
+[38;5;32m[AndroidUiautomator2Driver@8834 (e130869f)][0m Matched '/element/00000000-0000-017a-ffff-ffff00000023/clear' to command name 'clear'
+[38;5;32m[AndroidUiautomator2Driver@8834 (e130869f)][0m Proxying [POST /element/00000000-0000-017a-ffff-ffff00000023/clear] to [POST http://127.0.0.1:8203/session/ff73ff52-6680-4a3f-a0d9-39ab2f77ffe3/element/00000000-0000-017a-ffff-ffff00000023/clear] with body: {"elementId":"00000000-0000-017a-ffff-ffff00000023"}
+[38;5;32m[AndroidUiautomator2Driver@8834 (e130869f)][0m Got response with status 200: {"sessionId":"ff73ff52-6680-4a3f-a0d9-39ab2f77ffe3","value":null}
+[38;5;32m[AndroidUiautomator2Driver@8834 (e130869f)][0m Responding to client with driver.clear() result: null
+[38;5;0m[HTTP][0m [37m<-- POST /session/e130869f-41be-4a88-bb4f-30cbb734a5ae/element/00000000-0000-017a-ffff-ffff00000023/clear [39m[32m200[39m [90m82 ms - 14[39m
+[38;5;0m[HTTP][0m [90m[39m
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/session/e130869f-41be-4a88-bb4f-30cbb734a5ae/element/00000000-0000-017a-ffff-ffff00000023/value[39m
+[38;5;0m[HTTP][0m [90m{"text":"123"}[39m
+[38;5;32m[AndroidUiautomator2Driver@8834 (e130869f)][0m Calling AppiumDriver.setValue() with args: ["123","00000000-0000-017a-ffff-ffff00000023","e130869f-41be-4a88-bb4f-30cbb734a5ae"]
+[38;5;32m[AndroidUiautomator2Driver@8834 (e130869f)][0m Matched '/element/00000000-0000-017a-ffff-ffff00000023/value' to command name 'setValue'
+[38;5;32m[AndroidUiautomator2Driver@8834 (e130869f)][0m Added 'value' property ["1","2","3"] to 'setValue' request body
+[38;5;32m[AndroidUiautomator2Driver@8834 (e130869f)][0m Proxying [POST /element/00000000-0000-017a-ffff-ffff00000023/value] to [POST http://127.0.0.1:8203/session/ff73ff52-6680-4a3f-a0d9-39ab2f77ffe3/element/00000000-0000-017a-ffff-ffff00000023/value] with body: {"elementId":"00000000-0000-017a-ffff-ffff00000023","text":"123","replace":false,"value":["1","2","3"]}
+[38;5;32m[AndroidUiautomator2Driver@8834 (e130869f)][0m Got response with status 200: {"sessionId":"ff73ff52-6680-4a3f-a0d9-39ab2f77ffe3","value":null}
+[38;5;32m[AndroidUiautomator2Driver@8834 (e130869f)][0m Responding to client with driver.setValue() result: null
+[38;5;0m[HTTP][0m [37m<-- POST /session/e130869f-41be-4a88-bb4f-30cbb734a5ae/element/00000000-0000-017a-ffff-ffff00000023/value [39m[32m200[39m [90m1115 ms - 14[39m
+[38;5;0m[HTTP][0m [90m[39m
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/session/e130869f-41be-4a88-bb4f-30cbb734a5ae/element[39m
+[38;5;0m[HTTP][0m [90m{"using":"id","value":"com.fghilmany.dietmealapp:id/et_height"}[39m
+[38;5;32m[AndroidUiautomator2Driver@8834 (e130869f)][0m Calling AppiumDriver.findElement() with args: ["id","com.fghilmany.dietmealapp:id/et_height","e130869f-41be-4a88-bb4f-30cbb734a5ae"]
+[38;5;32m[AndroidUiautomator2Driver@8834 (e130869f)][0m Valid locator strategies for this request: xpath, id, class name, accessibility id, css selector, -android uiautomator
+[38;5;32m[AndroidUiautomator2Driver@8834 (e130869f)][0m Waiting up to 0 ms for condition
+[38;5;32m[AndroidUiautomator2Driver@8834 (e130869f)][0m Matched '/element' to command name 'findElement'
+[38;5;32m[AndroidUiautomator2Driver@8834 (e130869f)][0m Proxying [POST /element] to [POST http://127.0.0.1:8203/session/ff73ff52-6680-4a3f-a0d9-39ab2f77ffe3/element] with body: {"strategy":"id","selector":"com.fghilmany.dietmealapp:id/et_height","context":"","multiple":false}
+[38;5;32m[AndroidUiautomator2Driver@8834 (e130869f)][0m Got response with status 200: {"sessionId":"ff73ff52-6680-4a3f-a0d9-39ab2f77ffe3","value":{"ELEMENT":"00000000-0000-017a-ffff-ffff0000002f","element-6066-11e4-a52e-4f735466cecf":"00000000-0000-017a-ffff-ffff0000002f"}}
+[38;5;32m[AndroidUiautomator2Driver@8834 (e130869f)][0m Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-017a-ffff-ffff0000002f","ELEMENT":"00000000-0000-017a-ffff-ffff0000002f"}
+[38;5;0m[HTTP][0m [37m<-- POST /session/e130869f-41be-4a88-bb4f-30cbb734a5ae/element [39m[32m200[39m [90m263 ms - 137[39m
+[38;5;0m[HTTP][0m [90m[39m
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/session/e130869f-41be-4a88-bb4f-30cbb734a5ae/element/00000000-0000-017a-ffff-ffff0000002f/clear[39m
+[38;5;0m[HTTP][0m [90m{}[39m
+[38;5;32m[AndroidUiautomator2Driver@8834 (e130869f)][0m Calling AppiumDriver.clear() with args: ["00000000-0000-017a-ffff-ffff0000002f","e130869f-41be-4a88-bb4f-30cbb734a5ae"]
+[38;5;32m[AndroidUiautomator2Driver@8834 (e130869f)][0m Matched '/element/00000000-0000-017a-ffff-ffff0000002f/clear' to command name 'clear'
+[38;5;32m[AndroidUiautomator2Driver@8834 (e130869f)][0m Proxying [POST /element/00000000-0000-017a-ffff-ffff0000002f/clear] to [POST http://127.0.0.1:8203/session/ff73ff52-6680-4a3f-a0d9-39ab2f77ffe3/element/00000000-0000-017a-ffff-ffff0000002f/clear] with body: {"elementId":"00000000-0000-017a-ffff-ffff0000002f"}
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5173ff77-c46c-430b-94bc-a82d4135ff87/timeouts[39m
+[38;5;0m[HTTP][0m [90m{}[39m
+[38;5;0m[HTTP][0m No route found for /wd/hub/session/5173ff77-c46c-430b-94bc-a82d4135ff87/timeouts
+[38;5;0m[HTTP][0m [37m<-- GET /wd/hub/session/5173ff77-c46c-430b-94bc-a82d4135ff87/timeouts [39m[33m404[39m [90m6 ms - 262[39m
+[38;5;0m[HTTP][0m [90m[39m
+[38;5;32m[AndroidUiautomator2Driver@8834 (e130869f)][0m Got response with status 200: {"sessionId":"ff73ff52-6680-4a3f-a0d9-39ab2f77ffe3","value":null}
+[38;5;32m[AndroidUiautomator2Driver@8834 (e130869f)][0m Responding to client with driver.clear() result: null
+[38;5;0m[HTTP][0m [37m<-- POST /session/e130869f-41be-4a88-bb4f-30cbb734a5ae/element/00000000-0000-017a-ffff-ffff0000002f/clear [39m[32m200[39m [90m407 ms - 14[39m
+[38;5;0m[HTTP][0m [90m[39m
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/session/e130869f-41be-4a88-bb4f-30cbb734a5ae/element/00000000-0000-017a-ffff-ffff0000002f/value[39m
+[38;5;0m[HTTP][0m [90m{"text":"123"}[39m
+[38;5;32m[AndroidUiautomator2Driver@8834 (e130869f)][0m Calling AppiumDriver.setValue() with args: ["123","00000000-0000-017a-ffff-ffff0000002f","e130869f-41be-4a88-bb4f-30cbb734a5ae"]
+[38;5;32m[AndroidUiautomator2Driver@8834 (e130869f)][0m Matched '/element/00000000-0000-017a-ffff-ffff0000002f/value' to command name 'setValue'
+[38;5;32m[AndroidUiautomator2Driver@8834 (e130869f)][0m Added 'value' property ["1","2","3"] to 'setValue' request body
+[38;5;32m[AndroidUiautomator2Driver@8834 (e130869f)][0m Proxying [POST /element/00000000-0000-017a-ffff-ffff0000002f/value] to [POST http://127.0.0.1:8203/session/ff73ff52-6680-4a3f-a0d9-39ab2f77ffe3/element/00000000-0000-017a-ffff-ffff0000002f/value] with body: {"elementId":"00000000-0000-017a-ffff-ffff0000002f","text":"123","replace":false,"value":["1","2","3"]}
+[38;5;32m[AndroidUiautomator2Driver@8834 (e130869f)][0m Got response with status 200: {"sessionId":"ff73ff52-6680-4a3f-a0d9-39ab2f77ffe3","value":null}
+[38;5;32m[AndroidUiautomator2Driver@8834 (e130869f)][0m Responding to client with driver.setValue() result: null
+[38;5;0m[HTTP][0m [37m<-- POST /session/e130869f-41be-4a88-bb4f-30cbb734a5ae/element/00000000-0000-017a-ffff-ffff0000002f/value [39m[32m200[39m [90m1109 ms - 14[39m
+[38;5;0m[HTTP][0m [90m[39m
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/session/e130869f-41be-4a88-bb4f-30cbb734a5ae/element[39m
+[38;5;0m[HTTP][0m [90m{"using":"id","value":"com.fghilmany.dietmealapp:id/rb_male"}[39m
+[38;5;32m[AndroidUiautomator2Driver@8834 (e130869f)][0m Calling AppiumDriver.findElement() with args: ["id","com.fghilmany.dietmealapp:id/rb_male","e130869f-41be-4a88-bb4f-30cbb734a5ae"]
+[38;5;32m[AndroidUiautomator2Driver@8834 (e130869f)][0m Valid locator strategies for this request: xpath, id, class name, accessibility id, css selector, -android uiautomator
+[38;5;32m[AndroidUiautomator2Driver@8834 (e130869f)][0m Waiting up to 0 ms for condition
+[38;5;32m[AndroidUiautomator2Driver@8834 (e130869f)][0m Matched '/element' to command name 'findElement'
+[38;5;32m[AndroidUiautomator2Driver@8834 (e130869f)][0m Proxying [POST /element] to [POST http://127.0.0.1:8203/session/ff73ff52-6680-4a3f-a0d9-39ab2f77ffe3/element] with body: {"strategy":"id","selector":"com.fghilmany.dietmealapp:id/rb_male","context":"","multiple":false}
+[38;5;32m[AndroidUiautomator2Driver@8834 (e130869f)][0m Got response with status 200: {"sessionId":"ff73ff52-6680-4a3f-a0d9-39ab2f77ffe3","value":{"ELEMENT":"00000000-0000-017a-ffff-ffff0000003a","element-6066-11e4-a52e-4f735466cecf":"00000000-0000-017a-ffff-ffff0000003a"}}
+[38;5;32m[AndroidUiautomator2Driver@8834 (e130869f)][0m Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-017a-ffff-ffff0000003a","ELEMENT":"00000000-0000-017a-ffff-ffff0000003a"}
+[38;5;0m[HTTP][0m [37m<-- POST /session/e130869f-41be-4a88-bb4f-30cbb734a5ae/element [39m[32m200[39m [90m309 ms - 137[39m
+[38;5;0m[HTTP][0m [90m[39m
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/session/e130869f-41be-4a88-bb4f-30cbb734a5ae/element/00000000-0000-017a-ffff-ffff0000003a/click[39m
+[38;5;0m[HTTP][0m [90m{}[39m
+[38;5;32m[AndroidUiautomator2Driver@8834 (e130869f)][0m Calling AppiumDriver.click() with args: ["00000000-0000-017a-ffff-ffff0000003a","e130869f-41be-4a88-bb4f-30cbb734a5ae"]
+[38;5;32m[AndroidUiautomator2Driver@8834 (e130869f)][0m Matched '/element/00000000-0000-017a-ffff-ffff0000003a/click' to command name 'click'
+[38;5;32m[AndroidUiautomator2Driver@8834 (e130869f)][0m Proxying [POST /element/00000000-0000-017a-ffff-ffff0000003a/click] to [POST http://127.0.0.1:8203/session/ff73ff52-6680-4a3f-a0d9-39ab2f77ffe3/element/00000000-0000-017a-ffff-ffff0000003a/click] with body: {"element":"00000000-0000-017a-ffff-ffff0000003a"}
+[38;5;32m[AndroidUiautomator2Driver@8834 (e130869f)][0m Got response with status 200: {"sessionId":"ff73ff52-6680-4a3f-a0d9-39ab2f77ffe3","value":null}
+[38;5;32m[AndroidUiautomator2Driver@8834 (e130869f)][0m Responding to client with driver.click() result: null
+[38;5;0m[HTTP][0m [37m<-- POST /session/e130869f-41be-4a88-bb4f-30cbb734a5ae/element/00000000-0000-017a-ffff-ffff0000003a/click [39m[32m200[39m [90m418 ms - 14[39m
+[38;5;0m[HTTP][0m [90m[39m
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/session/e130869f-41be-4a88-bb4f-30cbb734a5ae/element[39m
+[38;5;0m[HTTP][0m [90m{"using":"id","value":"com.fghilmany.dietmealapp:id/bt_next"}[39m
+[38;5;32m[AndroidUiautomator2Driver@8834 (e130869f)][0m Calling AppiumDriver.findElement() with args: ["id","com.fghilmany.dietmealapp:id/bt_next","e130869f-41be-4a88-bb4f-30cbb734a5ae"]
+[38;5;32m[AndroidUiautomator2Driver@8834 (e130869f)][0m Valid locator strategies for this request: xpath, id, class name, accessibility id, css selector, -android uiautomator
+[38;5;32m[AndroidUiautomator2Driver@8834 (e130869f)][0m Waiting up to 0 ms for condition
+[38;5;32m[AndroidUiautomator2Driver@8834 (e130869f)][0m Matched '/element' to command name 'findElement'
+[38;5;32m[AndroidUiautomator2Driver@8834 (e130869f)][0m Proxying [POST /element] to [POST http://127.0.0.1:8203/session/ff73ff52-6680-4a3f-a0d9-39ab2f77ffe3/element] with body: {"strategy":"id","selector":"com.fghilmany.dietmealapp:id/bt_next","context":"","multiple":false}
+[38;5;32m[AndroidUiautomator2Driver@8834 (e130869f)][0m Got response with status 200: {"sessionId":"ff73ff52-6680-4a3f-a0d9-39ab2f77ffe3","value":{"ELEMENT":"00000000-0000-017a-ffff-ffff0000003c","element-6066-11e4-a52e-4f735466cecf":"00000000-0000-017a-ffff-ffff0000003c"}}
+[38;5;32m[AndroidUiautomator2Driver@8834 (e130869f)][0m Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-017a-ffff-ffff0000003c","ELEMENT":"00000000-0000-017a-ffff-ffff0000003c"}
+[38;5;0m[HTTP][0m [37m<-- POST /session/e130869f-41be-4a88-bb4f-30cbb734a5ae/element [39m[32m200[39m [90m880 ms - 137[39m
+[38;5;0m[HTTP][0m [90m[39m
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/session/e130869f-41be-4a88-bb4f-30cbb734a5ae/element/00000000-0000-017a-ffff-ffff0000003c/click[39m
+[38;5;0m[HTTP][0m [90m{}[39m
+[38;5;32m[AndroidUiautomator2Driver@8834 (e130869f)][0m Calling AppiumDriver.click() with args: ["00000000-0000-017a-ffff-ffff0000003c","e130869f-41be-4a88-bb4f-30cbb734a5ae"]
+[38;5;32m[AndroidUiautomator2Driver@8834 (e130869f)][0m Matched '/element/00000000-0000-017a-ffff-ffff0000003c/click' to command name 'click'
+[38;5;32m[AndroidUiautomator2Driver@8834 (e130869f)][0m Proxying [POST /element/00000000-0000-017a-ffff-ffff0000003c/click] to [POST http://127.0.0.1:8203/session/ff73ff52-6680-4a3f-a0d9-39ab2f77ffe3/element/00000000-0000-017a-ffff-ffff0000003c/click] with body: {"element":"00000000-0000-017a-ffff-ffff0000003c"}
+[38;5;32m[AndroidUiautomator2Driver@8834 (e130869f)][0m Got response with status 200: {"sessionId":"ff73ff52-6680-4a3f-a0d9-39ab2f77ffe3","value":null}
+[38;5;32m[AndroidUiautomator2Driver@8834 (e130869f)][0m Responding to client with driver.click() result: null
+[38;5;0m[HTTP][0m [37m<-- POST /session/e130869f-41be-4a88-bb4f-30cbb734a5ae/element/00000000-0000-017a-ffff-ffff0000003c/click [39m[32m200[39m [90m113 ms - 14[39m
+[38;5;0m[HTTP][0m [90m[39m
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/session/e130869f-41be-4a88-bb4f-30cbb734a5ae/element[39m
+[38;5;0m[HTTP][0m [90m{"using":"id","value":"com.fghilmany.dietmealapp:id/rb_rest"}[39m
+[38;5;32m[AndroidUiautomator2Driver@8834 (e130869f)][0m Calling AppiumDriver.findElement() with args: ["id","com.fghilmany.dietmealapp:id/rb_rest","e130869f-41be-4a88-bb4f-30cbb734a5ae"]
+[38;5;32m[AndroidUiautomator2Driver@8834 (e130869f)][0m Valid locator strategies for this request: xpath, id, class name, accessibility id, css selector, -android uiautomator
+[38;5;32m[AndroidUiautomator2Driver@8834 (e130869f)][0m Waiting up to 0 ms for condition
+[38;5;32m[AndroidUiautomator2Driver@8834 (e130869f)][0m Matched '/element' to command name 'findElement'
+[38;5;32m[AndroidUiautomator2Driver@8834 (e130869f)][0m Proxying [POST /element] to [POST http://127.0.0.1:8203/session/ff73ff52-6680-4a3f-a0d9-39ab2f77ffe3/element] with body: {"strategy":"id","selector":"com.fghilmany.dietmealapp:id/rb_rest","context":"","multiple":false}
+[38;5;32m[AndroidUiautomator2Driver@8834 (e130869f)][0m Got response with status 200: {"sessionId":"ff73ff52-6680-4a3f-a0d9-39ab2f77ffe3","value":{"ELEMENT":"00000000-0000-017a-ffff-ffff00000041","element-6066-11e4-a52e-4f735466cecf":"00000000-0000-017a-ffff-ffff00000041"}}
+[38;5;32m[AndroidUiautomator2Driver@8834 (e130869f)][0m Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-017a-ffff-ffff00000041","ELEMENT":"00000000-0000-017a-ffff-ffff00000041"}
+[38;5;0m[HTTP][0m [37m<-- POST /session/e130869f-41be-4a88-bb4f-30cbb734a5ae/element [39m[32m200[39m [90m343 ms - 137[39m
+[38;5;0m[HTTP][0m [90m[39m
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/session/e130869f-41be-4a88-bb4f-30cbb734a5ae/element/00000000-0000-017a-ffff-ffff00000041/click[39m
+[38;5;0m[HTTP][0m [90m{}[39m
+[38;5;32m[AndroidUiautomator2Driver@8834 (e130869f)][0m Calling AppiumDriver.click() with args: ["00000000-0000-017a-ffff-ffff00000041","e130869f-41be-4a88-bb4f-30cbb734a5ae"]
+[38;5;32m[AndroidUiautomator2Driver@8834 (e130869f)][0m Matched '/element/00000000-0000-017a-ffff-ffff00000041/click' to command name 'click'
+[38;5;32m[AndroidUiautomator2Driver@8834 (e130869f)][0m Proxying [POST /element/00000000-0000-017a-ffff-ffff00000041/click] to [POST http://127.0.0.1:8203/session/ff73ff52-6680-4a3f-a0d9-39ab2f77ffe3/element/00000000-0000-017a-ffff-ffff00000041/click] with body: {"element":"00000000-0000-017a-ffff-ffff00000041"}
+[38;5;32m[AndroidUiautomator2Driver@8834 (e130869f)][0m Got response with status 200: {"sessionId":"ff73ff52-6680-4a3f-a0d9-39ab2f77ffe3","value":null}
+[38;5;32m[AndroidUiautomator2Driver@8834 (e130869f)][0m Responding to client with driver.click() result: null
+[38;5;0m[HTTP][0m [37m<-- POST /session/e130869f-41be-4a88-bb4f-30cbb734a5ae/element/00000000-0000-017a-ffff-ffff00000041/click [39m[32m200[39m [90m544 ms - 14[39m
+[38;5;0m[HTTP][0m [90m[39m
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/session/e130869f-41be-4a88-bb4f-30cbb734a5ae/element[39m
+[38;5;0m[HTTP][0m [90m{"using":"id","value":"com.fghilmany.dietmealapp:id/bt_finish"}[39m
+[38;5;32m[AndroidUiautomator2Driver@8834 (e130869f)][0m Calling AppiumDriver.findElement() with args: ["id","com.fghilmany.dietmealapp:id/bt_finish","e130869f-41be-4a88-bb4f-30cbb734a5ae"]
+[38;5;32m[AndroidUiautomator2Driver@8834 (e130869f)][0m Valid locator strategies for this request: xpath, id, class name, accessibility id, css selector, -android uiautomator
+[38;5;32m[AndroidUiautomator2Driver@8834 (e130869f)][0m Waiting up to 0 ms for condition
+[38;5;32m[AndroidUiautomator2Driver@8834 (e130869f)][0m Matched '/element' to command name 'findElement'
+[38;5;32m[AndroidUiautomator2Driver@8834 (e130869f)][0m Proxying [POST /element] to [POST http://127.0.0.1:8203/session/ff73ff52-6680-4a3f-a0d9-39ab2f77ffe3/element] with body: {"strategy":"id","selector":"com.fghilmany.dietmealapp:id/bt_finish","context":"","multiple":false}
+[38;5;32m[AndroidUiautomator2Driver@8834 (e130869f)][0m Got response with status 200: {"sessionId":"ff73ff52-6680-4a3f-a0d9-39ab2f77ffe3","value":{"ELEMENT":"00000000-0000-017a-ffff-ffff00000048","element-6066-11e4-a52e-4f735466cecf":"00000000-0000-017a-ffff-ffff00000048"}}
+[38;5;32m[AndroidUiautomator2Driver@8834 (e130869f)][0m Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-017a-ffff-ffff00000048","ELEMENT":"00000000-0000-017a-ffff-ffff00000048"}
+[38;5;0m[HTTP][0m [37m<-- POST /session/e130869f-41be-4a88-bb4f-30cbb734a5ae/element [39m[32m200[39m [90m786 ms - 137[39m
+[38;5;0m[HTTP][0m [90m[39m
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/session/e130869f-41be-4a88-bb4f-30cbb734a5ae/element/00000000-0000-017a-ffff-ffff00000048/click[39m
+[38;5;0m[HTTP][0m [90m{}[39m
+[38;5;32m[AndroidUiautomator2Driver@8834 (e130869f)][0m Calling AppiumDriver.click() with args: ["00000000-0000-017a-ffff-ffff00000048","e130869f-41be-4a88-bb4f-30cbb734a5ae"]
+[38;5;32m[AndroidUiautomator2Driver@8834 (e130869f)][0m Matched '/element/00000000-0000-017a-ffff-ffff00000048/click' to command name 'click'
+[38;5;32m[AndroidUiautomator2Driver@8834 (e130869f)][0m Proxying [POST /element/00000000-0000-017a-ffff-ffff00000048/click] to [POST http://127.0.0.1:8203/session/ff73ff52-6680-4a3f-a0d9-39ab2f77ffe3/element/00000000-0000-017a-ffff-ffff00000048/click] with body: {"element":"00000000-0000-017a-ffff-ffff00000048"}
+[38;5;32m[AndroidUiautomator2Driver@8834 (e130869f)][0m Got response with status 200: {"sessionId":"ff73ff52-6680-4a3f-a0d9-39ab2f77ffe3","value":null}
+[38;5;32m[AndroidUiautomator2Driver@8834 (e130869f)][0m Responding to client with driver.click() result: null
+[38;5;0m[HTTP][0m [37m<-- POST /session/e130869f-41be-4a88-bb4f-30cbb734a5ae/element/00000000-0000-017a-ffff-ffff00000048/click [39m[32m200[39m [90m127 ms - 14[39m
+[38;5;0m[HTTP][0m [90m[39m
+[38;5;0m[HTTP][0m [37m-->[39m [37mDELETE[39m [37m/session/e130869f-41be-4a88-bb4f-30cbb734a5ae[39m
+[38;5;0m[HTTP][0m [90m{}[39m
+[38;5;32m[AndroidUiautomator2Driver@8834 (e130869f)][0m Calling AppiumDriver.deleteSession() with args: ["e130869f-41be-4a88-bb4f-30cbb734a5ae"]
+[38;5;16m[AppiumDriver@08bf][0m Event 'quitSessionRequested' logged at 1716264322246 (11:05:22 GMT+0700 (Western Indonesia Time))
+[38;5;16m[AppiumDriver@08bf][0m Removing session e130869f-41be-4a88-bb4f-30cbb734a5ae from our master session list
+[38;5;32m[AndroidUiautomator2Driver@8834 (e130869f)][0m Deleting UiAutomator2 session
+[38;5;32m[AndroidUiautomator2Driver@8834 (e130869f)][0m Deleting UiAutomator2 server session
+[38;5;32m[AndroidUiautomator2Driver@8834 (e130869f)][0m Matched '/' to command name 'deleteSession'
+[38;5;32m[AndroidUiautomator2Driver@8834 (e130869f)][0m Proxying [DELETE /] to [DELETE http://127.0.0.1:8203/session/ff73ff52-6680-4a3f-a0d9-39ab2f77ffe3] with no body
+[38;5;32m[AndroidUiautomator2Driver@8834 (e130869f)][0m Got response with status 200: {"sessionId":"ff73ff52-6680-4a3f-a0d9-39ab2f77ffe3","value":null}
+[38;5;48m[ADB][0m Running 'C:\Users\User\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s RR8RC06AWYW shell dumpsys activity services io.appium.settings/.recorder.RecorderService'
+[38;5;80m[Logcat][0m Stopping logcat capture
+[38;5;48m[ADB][0m Removing forwarded port socket connection: 8203 
+[38;5;48m[ADB][0m Running 'C:\Users\User\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s RR8RC06AWYW forward --remove tcp:8203'
+[38;5;32m[AndroidUiautomator2Driver@8834 (e130869f)][0m Restoring hidden api policy to the device default configuration
+[38;5;48m[ADB][0m Running 'C:\Users\User\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s RR8RC06AWYW shell 'settings delete global hidden_api_policy_pre_p_apps;settings delete global hidden_api_policy_p_apps;settings delete global hidden_api_policy''
+[38;5;16m[AppiumDriver@08bf][0m Event 'quitSessionFinished' logged at 1716264322503 (11:05:22 GMT+0700 (Western Indonesia Time))
+[38;5;16m[AppiumDriver@08bf][0m Received response: null
+[38;5;16m[AppiumDriver@08bf][0m But deleting session, so not returning
+[38;5;16m[AppiumDriver@08bf][0m Responding to client with driver.deleteSession() result: null
+[38;5;0m[HTTP][0m [37m<-- DELETE /session/e130869f-41be-4a88-bb4f-30cbb734a5ae [39m[32m200[39m [90m258 ms - 14[39m
+[38;5;0m[HTTP][0m [90m[39m
